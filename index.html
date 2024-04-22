@@ -1,0 +1,24 @@
+<html> <head> <style> body { background-color: #f0e68c; font-family: Arial, sans-serif; }
+header { background-color: #2e6c80; color: white; padding: 10px; text-align: center; }
+
+header h1 { margin: 0; }
+
+header button { background-color: #003349; border: none; color: white; padding: 5px 10px; text-decoration: none; font-size: 16px; margin: 0 5px; }
+
+main { display: flex; justify-content: space-around; padding: 20px; }
+
+.product-card { background-color: white; border-radius: 5px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 20px; text-align: center; }
+
+.product-image { width: 100%; height: auto; border-radius: 5px; }
+
+footer { background-color: #2e6c80; color: white; padding: 10px; text-align: center; margin-top: 20px; }
+
+form { margin-top: 20px; }
+
+form label { display: block; margin-top: 20px; }
+
+form input[type="text"], form textarea { width: 100%; padding: 10px; margin-top: 5px; }
+
+form button { background-color: #003349; border: none; color: white; padding: 10px; margin-top: 10px; } </style>
+
+</head> <body> <header> <h1>Amazon</h1> <button>Home</button> <button>Product</button> </header> <main> <div class="product-card"> <img class="product-image" src="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SL1500_.jpg" alt="Echo Dot"> <h2>Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal</h2> <p>Our most popular smart speaker - Now with improved sound and a new design. Echo Dot is our most compact smart speaker that fits perfectly into small spaces.</p> <p>Price: $39.99</p> <button>Add to Cart</button> </div> <div class="product-card"> <img class="product-image" src="https://images-na.ssl-images-amazon.com/images/I/71ZUM7-8lHL._AC_SL1500_.jpg" alt="Fire TV Stick 4K"> <h2>Fire TV Stick 4K with Alexa Voice Remote (includes TV controls) | HD streaming device</h2> <p>Most powerful 4K streaming media stick - Watch favorites from Netflix, YouTube, Prime Video, Disney+, Apple TV, HBO, and more. Stream in 4K Ultra HD, Dolby Vision, HDR, HDR10+, and HLG. Includes Alexa Voice Remote with power and volume buttons.</p> <p>Price: $49.99</p> <button>Add to Cart</button> </div> </main> <footer> &copy; 2023 Amazon </footer> <form> <h2>Contact Us</h2> <label for="name">Name:</label> <input type="text" id="name" name="name"> <label for="email">Email:</label> <input type="text" id="email" name="email"> <label for="message">Message:</label> <textarea id="message" name="message"></textarea> <button type="submit">Send</button> </form> <script> // JavaScript code
